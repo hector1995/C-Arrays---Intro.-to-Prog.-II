@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace Arrays
 {
@@ -15,7 +16,7 @@ namespace Arrays
             //Foreach loop to show all integers in array1
             foreach (int swag in array1)
             {
-                System.Console.WriteLine(swag);
+                WriteLine(swag);
             }
         }
     }
